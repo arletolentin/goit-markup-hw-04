@@ -192,7 +192,9 @@ button {
 }
 .portfolio-button-item:hover {
   background: var(--ocean);
-  color: var(--white)
+  color: var(--white);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+  border-radius: 4px;
 }
 .portfolio-button-item {
   display: flex;
@@ -219,9 +221,13 @@ button {
 .portfolio-item {
   display: flex;
   flex-direction: column;
-  /* flex-basis: 33.33333 %; */
 }
-.portfolio-list-row {
+.portfolio-item:hover {
+  border: 1px solid var(--CLOUD);
+  background: var(--WHITE);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+  .portfolio-list-row {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
