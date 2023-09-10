@@ -299,6 +299,13 @@ button {
   align-items: flex-start;
   gap: 8px;
 }
+.feature-list-icon {
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  background-color: var(--cloud);
+  padding: 24px 100px;
+}
 .services {
   background: #FFF;
   padding-bottom: 120px;
